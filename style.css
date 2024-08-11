@@ -41,7 +41,6 @@ ul {
 }
 li {
     position: relative;
-    padding-left: 16px;
     font:  400 14px/20px 'Verdana', sans-serif;
 }
 
@@ -110,6 +109,7 @@ main {
 .legend li {
     display: flex;
     justify-content: space-between;
+    padding-left: 16px;
 }
 
 .legend__item {
@@ -163,15 +163,15 @@ main {
     font:  400 14px/20px 'Verdana', sans-serif;
     margin-top: 0;
     position: absolute;
-    top:165px;
+    top:173px;
 }
+
 /*3rd chart*/
 .chart_third{
     width:307px;
 }
 
 .attention__list{
-
 padding-left: 40px;
 }
 
@@ -185,10 +185,10 @@ padding-left: 40px;
 .attention__text{
     display: inline-block;
     font:  400 12px/18px 'Verdana', sans-serif;
-    padding: 4px 12px 4px;
-    margin-left: 6px;
+    padding: 4px 0px 4px;
 }
 .attention__img{
     display: inline-block;
     vertical-align: middle;
+    padding-left: 12px;
 }
