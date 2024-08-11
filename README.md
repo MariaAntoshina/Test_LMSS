@@ -14,4 +14,4 @@ Preview of a website:
   <li>JS(CHART.JS)</li>
 </ul>
 
-To visit page please click here: <a href="">Team Statistics</a>
+To visit page please click here: <a href="https://test-lmss.vercel.app/">Team Statistics</a>
