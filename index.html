@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+</head>
+<body>
+<!-- Header -->
+<header id='header-section'>
+    <div class="container">
+        <h2 class="chart-header">Моя команда</h2>
+    </div>
+</header>
+<!-- Main -->
+<main>
+    <section id='chart-section'>
+        <div class="container">
+            <div class="chart__wrap" style="background:#F3F8FC">
+                <!--1st chart-->
+                <div class="chart chart_main">
+                    <div class="chart-info">
+                        <h2 class="chart__title">Обученность команды <span class="material-symbols-outlined" style="font-size: 12px;">info</span></h2>
+                        <div class="chart-details">
+                            <div class="chart__canvas">
+                                <canvas id="chart1"></canvas>
+                            </div>
+                            <div class="legend">
+                                <ul class="legend__list">
+                                    Курсы и траектории
+                                    <li class="legend__item"><span>Завершено</span><span>70% <span
+                                            class="percentage-count">(7)</span></span></li>
+                                    <li class="legend__item"><span>В процессе</span><span>10% <span
+                                            class="percentage-count">(1)</span></span></li>
+                                    <li class="legend__item"><span>Не пройдено</span><span>10% <span
+                                            class="percentage-count">(1)</span></span></li>
+                                    <li class="legend__item"><span>Не начато</span><span>10% <span
+                                            class="percentage-count">(1)</span></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--2nd chart-->
+                <div class="chart chart_second">
+                    <div class="chart-info">
+                        <h2 class="chart__title">Прогресс сотрудников <span class="material-symbols-outlined" style="font-size: 12px;">info</span></h2>
+                        <div class="chart__canvas_half">
+                            <canvas id="chart2"></canvas>
+                            <p class="chart__text">сотрудников завершили обучение</p>
+                        </div>
+                    </div>
+                </div>
+                <!--3rd chart-->
+                <div class="chart chart_third">
+                    <div class="chart-info">
+                        <h2 class="chart__title">Обратите внимание </h2>
+                        <ul class="attention__list">
+                            <li class="attention__item">
+                                <img class="attention__img" src="icons/exclamation.svg" alt = '#'>
+                                <span class="attention__text">Не прошли обучение: 1</span>
+
+                            </li>
+                            <li class="attention__item">
+                                <img class="attention__img" src="icons/exclamation.svg" alt = '#'>
+                                <span class="attention__text">Не заходили на портал: 1</span>
+
+                            </li>
+                            <li class="attention__item">
+                                <img class="attention__img" src="icons/exclamation.svg" alt = '#'>
+                                <span class="attention__text">Не были более 2 недель: 1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+<script src='main.js'></script>
+</body>
+</html>
+
